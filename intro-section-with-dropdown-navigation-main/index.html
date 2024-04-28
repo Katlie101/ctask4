@@ -5,39 +5,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./intro.css">
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  
+  
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+
   </style>
+
+  
 </head>
 <body>
+  <img src="./images/logo.svg">
+<ul class="navi">
+  <div class="featd">
+   <li><button onclick="myFunction()" class="featpress">Features</button> 
+    <div id="dropfeat" class="dropdown">
+        <img src="./images/icon-todo.svg">
+        <a href="#">Todo List</a>
+        <img src="./images/icon-calendar.svg">
+        <a href="#">Calendar</a>
+        <img src="./images/icon-reminders.svg">
+        <a href="#">Reminders</a>
+        <img src="./images/icon-planning.svg">
+        <a href="#"> Planning</a> 
+    </div>    
+  
+   </li>
+  </div>
+       
 
-  Features
-  Company
-  Careers
-  About
+  <li><button class="press">Company</button></li>
+  <li>Careers</li>
+  <li>About</li>
 
-  Login
-  Register
-
-  Make remote work
-
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
-
-  Learn more
+  <li style="float: right;">Register </li> <!--list option on top because top in html corresponds to right in webpage-->
+  <li style="float: right;">Login </li>
+  
+</ul>
 
 
+
+
+
+<div class="content"> 
+  <p> 
+      <span id="size1"> Make 
+        <br>
+       remote work 
+      </span>
+        <br>
+        <br> 
+        Get your team in sync, no matter your location. 
+        <br>Streamline processes, 
+        create team rituals, and 
+        <br>
+        watch productivity soar.
+        <br> 
+        Learn more 
+  </p>
+</div>
+
+  <img src="./images/image-hero-desktop.png" style="float: right;" width="600px" height="800px">
+
+  <div class="bottomi">
+    
+      <img src="./images/client-databiz.svg">
+      <img src="./images/client-audiophile.svg">
+      <img src="./images/client-meet.svg"> 
+      <img src="./images/client-maker.svg">
+    
+  </div>
+
+<footer>
 <div class="attribution">
   Bootcamp 2023 by
   <a href="https://www.mlab.co.za" target="_blank">CodeTribe</a>. Developed
   by <a href="#">Your Name Here and link to your portfolio website</a>.
 </div>
+</footer>
+<script src="./activity.js"></script>
 </body>
+
 </html>
 
 <!-- Source Frontend Mentor: https://www.frontendmentor.io -->
