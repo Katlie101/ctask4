@@ -19,33 +19,48 @@
   
 </head>
 <body>
-  <img src="./images/logo.svg">
-<ul class="navi">
-  <div class="featd">
-   <li><button onclick="myFunction()" class="featpress">Features</button> 
-    <div id="dropfeat" class="dropdown">
-        <img src="./images/icon-todo.svg">
-        <a href="#">Todo List</a>
-        <img src="./images/icon-calendar.svg">
-        <a href="#">Calendar</a>
-        <img src="./images/icon-reminders.svg">
-        <a href="#">Reminders</a>
-        <img src="./images/icon-planning.svg">
-        <a href="#"> Planning</a> 
-    </div>    
   
-   </li>
-  </div>
-       
 
-  <li><button class="press">Company</button></li>
-  <li>Careers</li>
-  <li>About</li>
-
-  <li style="float: right;">Register </li> <!--list option on top because top in html corresponds to right in webpage-->
-  <li style="float: right;">Login </li>
+ <nav>
+   <div class="logo">
+     <img src="./images/logo.svg">
+   </div>
+   <ul>
+     <li class="letdown">
+     <a href="#" class="letbtn">Features</a>
+       <div class="letbtn-content" id="btn-content">
+          <img src="./images/icon-todo.svg">
+          <a href="#">Todo List</a>
+          <img src="./images/icon-calendar.svg">
+          <a href="#">Calendar</a>
+          <img src="./images/icon-reminders.svg">
+          <a href="#">Reminders</a>
+          <img src="./images/icon-planning.svg">
+          <a href="#"> Planning</a>
+        </div>
+     </select>      
+    </li>
   
-</ul>
+     <li class="letdown">
+       <a href="#" class="letbtn">Company</a>
+          <select><div class="letbtn-content">
+           <a href="#">History</a>
+           <a href="#">Our Team</a>
+           <a href="#">Blog</a>
+          </div>
+       </select>
+    <li><a href="#">Careers</a></li>
+    <li><a href="#">About</a></li>
+
+  <ul class="right-side"> 
+    <li>
+      <a href="#">Login </a> </li>
+    <li id="register-block">
+      <a href="#">Register </a></li> <!--list option on top because top in html corresponds to right in webpage-->
+    
+  </ul>
+  </ul>
+ </nav>
 
 
 
@@ -64,8 +79,9 @@
         create team rituals, and 
         <br>
         watch productivity soar.
-        <br> 
-        Learn more 
+        <div>
+        
+        <button id="learn">  Learn more </button> </div> 
   </p>
 </div>
 
