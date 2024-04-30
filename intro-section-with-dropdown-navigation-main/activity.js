@@ -18,7 +18,7 @@ var newAbout = "About";
 var newLogin = "Login";
 var newRegister = "Register";
 
-var newSpanText = "Make  remote work";
+var newSpanText = "Make remote work";
 document.getElementById("newSpanText").textContent = newSpanText;
 
 
