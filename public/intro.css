@@ -1,0 +1,126 @@
+
+
+
+
+.content {
+position: absolute;
+top: 30%;
+left: 10%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+} 
+
+#size1 {font-size: 50px; }
+
+.bottomi {
+bottom: 0px;
+justify-content: space-between;
+overflow: hidden;
+bottom: 0px;
+position: absolute;
+width: 100%;
+
+
+} 
+
+.attribution { font-size: 11px; 
+    text-align: center;
+    bottom: 0px; 
+    position: fixed;
+    
+    
+
+}
+.attribution a { color: hsl(228, 45%, 44%); 
+    }
+/* Navbar styles */
+nav {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.logo img {
+    max-height: 50px;
+    padding: 16px;
+         
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+li {
+    margin-left: 30px;
+}
+
+.right-side {
+    margin-left: 100%;
+}
+
+#register-block {
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+/* Styling dropdown */
+
+.letdown {
+    position: relative;
+    display: inline-block;
+    }
+.letbtn-content {
+    
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-style: groove;
+    display: none;
+ 
+    
+
+}
+
+
+
+/*Styles to the Learn more button*/
+
+#learn {
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: black;
+    border: 1px solid;
+    padding: 10px 20px;
+    color: white; 
+    cursor: pointer;
+}
+
+#learn:hover {
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px 20px;
+    border: 1px solid;
+    color: black;
+    cursor: pointer;
+}
+

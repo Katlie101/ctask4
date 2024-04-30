@@ -1,75 +1,94 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 
-
+/*styles for the content part*/
 
 .content {
 position: absolute;
 top: 30%;
 left: 10%;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 } 
 
-#size1 {font-size: 50px; }
+#welcome-page {
+color: gray;
+}
+
+#size1 {font-size: 70px; 
+}
+
+.container {
+display: flex;
+align-items: flex-end;
+}
 
 .bottomi {
-bottom: 0px;
-justify-content: space-between;
-overflow: hidden;
-bottom: 0px;
-position: absolute;
-width: 100%;
-
-
+display: flex;
+margin-left: 140px;
 } 
+
+.bottomi img {
+    margin-right: 30px;
+    width: 60px;
+    height: 20px;
+}
+
+#image-hero-desktop {
+    margin-left: 370px;
+}
 
 .attribution { font-size: 11px; 
     text-align: center;
     bottom: 0px; 
-    position: fixed;
+    position: relative;
     
     
 
 }
 .attribution a { color: hsl(228, 45%, 44%); 
     }
+
+
 /* Navbar styles */
 nav {
     display: flex;
     align-items: center;
-
+    
 }
-
 
 .logo img {
     max-height: 50px;
-    padding: 16px;
-         
+    padding: 16px;        
 }
-
 
 nav ul {
     display: flex;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    justify-content: space-between;
+
+
 }
 
-li {
+nav li {
+    display: inline-block;
     margin-left: 30px;
 }
 
+
 .right-side {
-    margin-left: 100%;
+    margin-left: 780px;
+    
 }
 
 #register-block {
+    
     border: 1px solid;
-    border-radius: 6px;
-    padding: 5px 10px;
+    border-radius: 10px;
+    padding: 2px 15px 5px;
     cursor: pointer;
-    font-size: 15px;
-
+    font-size: 14px;      
 }
 
 
@@ -82,28 +101,61 @@ a:hover {
     color: black;
 }
 
-/* Styling dropdown */
+/* Styles to dropdown */
 
 .letdown {
     position: relative;
-    display: inline-block;
-    }
-.letbtn-content {
+    display: flex;
+    align-items: center;
     
+    
+}
+
+.arrow-up, .arrow-down {
+width: 8px;
+height: 8px;
+margin-left: 5px;
+pointer-events: none;
+}
+
+.arrow-up {
+display: none;
+}
+
+.letdown:hover .arrow-down {
+    display: none;
+}
+
+.letdown:hover .arrow-up{
+    display: inline-block;
+}
+
+
+.letbtn-content {
+    display: none ;
     padding: 5px;
     font-size: 14px;
     border: 1px solid;
     border-radius: 7px;
     border-style: groove;
-    display: none;
- 
-    
-
+    width: 100px;
+    height:150px;
+    position: absolute;
+    top: 40px;
+    box-shadow: white;
+       
 }
 
+#complet {
+    width: 80px;
+    height: 90px;
+}
 
+.letbtn:hover + .letbtn-content {
+    display: block;  
+}
 
-/*Styles to the Learn more button*/
+/*Styles to the 'Learn more' button*/
 
 #learn {
     border-radius: 7px;

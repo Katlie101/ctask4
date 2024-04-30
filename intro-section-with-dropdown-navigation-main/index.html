@@ -8,13 +8,6 @@
   <link rel="stylesheet" href="./intro.css">
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
-  
-  
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-
-  </style>
 
   
 </head>
@@ -27,36 +20,50 @@
    </div>
    <ul>
      <li class="letdown">
-     <a href="#" class="letbtn">Features</a>
+     <a href="#" class="letbtn" id="Features">Features</a>
        <div class="letbtn-content" id="btn-content">
           <img src="./images/icon-todo.svg">
-          <a href="#">Todo List</a>
+          <a href="#" id="to-do">Todo List</a>
+          <br>
+          <br>
           <img src="./images/icon-calendar.svg">
-          <a href="#">Calendar</a>
+          <a href="#" id="calendar">Calendar</a>
+          <br>
+          <br>
           <img src="./images/icon-reminders.svg">
-          <a href="#">Reminders</a>
+          <a href="#" id="Reminders">Reminders</a>
+          <br>
+          <br>
           <img src="./images/icon-planning.svg">
-          <a href="#"> Planning</a>
+          <a href="#" id="Planning"> Planning</a>
         </div>
-     </select>      
+        <img class="arrow-down" src="./images/icon-arrow-down.svg"> 
+        <img class="arrow-up" src="./images/icon-arrow-up.svg">
+         
     </li>
-  
+ 
      <li class="letdown">
-       <a href="#" class="letbtn">Company</a>
-          <select><div class="letbtn-content">
-           <a href="#">History</a>
-           <a href="#">Our Team</a>
-           <a href="#">Blog</a>
+       <a href="#" class="letbtn" id="Company">Company</a>
+          <div class="letbtn-content" id="complet">
+           <a href="#" id= "History">History</a>
+           <br>
+           <br>
+           <a href="#" id="our-team">Our Team</a>
+           <br>
+           <br>
+           <a href="#" id="blog">Blog</a>
           </div>
-       </select>
-    <li><a href="#">Careers</a></li>
-    <li><a href="#">About</a></li>
+          <img class="arrow-down" src="./images/icon-arrow-down.svg"> 
+          <img class="arrow-up" src="./images/icon-arrow-up.svg">
+           
+    <li><a href="#" id="career">Careers</a></li>
+    <li><a href="#" id="about">About</a></li>
 
   <ul class="right-side"> 
     <li>
-      <a href="#">Login </a> </li>
+      <a href="#" id="login">Login </a> </li>
     <li id="register-block">
-      <a href="#">Register </a></li> <!--list option on top because top in html corresponds to right in webpage-->
+      <a href="#" id="register">Register </a></li> 
     
   </ul>
   </ul>
@@ -65,42 +72,46 @@
 
 
 
-
-<div class="content"> 
-  <p> 
+<div class="container">
+  <div class="content"> 
       <span id="size1"> Make 
         <br>
        remote work 
       </span>
         <br>
         <br> 
-        Get your team in sync, no matter your location. 
-        <br>Streamline processes, 
-        create team rituals, and 
+        <p id="welcome-page">Get your team in sync, no matter your location. 
+        <br>Streamline processes, create team rituals, and 
         <br>
-        watch productivity soar.
+        watch productivity soar.</p>
+        <br>
+        <br>
+        <br>
+        
         <div>
         
         <button id="learn">  Learn more </button> </div> 
-  </p>
-</div>
 
-  <img src="./images/image-hero-desktop.png" style="float: right;" width="600px" height="800px">
-
+  </div>
   <div class="bottomi">
     
-      <img src="./images/client-databiz.svg">
-      <img src="./images/client-audiophile.svg">
-      <img src="./images/client-meet.svg"> 
-      <img src="./images/client-maker.svg">
-    
+    <img src="./images/client-databiz.svg">
+    <img src="./images/client-audiophile.svg">
+    <img src="./images/client-meet.svg"> 
+    <img src="./images/client-maker.svg">
+  
+</div>
+  <div id="image-hero-desktop">
+    <img src="./images/image-hero-desktop.png" width="500px">
   </div>
 
+ 
+</div>
 <footer>
-<div class="attribution">
+<div class="attribution" id="attributi">
   Bootcamp 2023 by
   <a href="https://www.mlab.co.za" target="_blank">CodeTribe</a>. Developed
-  by <a href="#">Your Name Here and link to your portfolio website</a>.
+  by <a href="#">Katlego and link to your portfolio website</a>.
 </div>
 </footer>
 <script src="./activity.js"></script>
