@@ -77,23 +77,18 @@ document.getElementById("learn").innerHTML = newLearnMore;
 const newAtribution = "Bootcamp 2023 by";
 document.getElementById("attributi").innerHTML = newAtribution;
 
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 
-const firebaseConfig = {
+  const firebaseConfig = {
     apiKey: "AIzaSyCBxzRw_9EROmJrvsMbZ2UuUsg9dxor0iI",
     authDomain: "snap-task4.firebaseapp.com",
     databaseURL: "https://snap-task4-default-rtdb.firebaseio.com",
     projectId: "snap-task4",
     storageBucket: "snap-task4.appspot.com",
     messagingSenderId: "318304798390",
-    appId: "1:318304798390:web:6e3781c805b6d28aac0817",
-    measurementId: "G-5D7FSMD658"
+    appId: "1:318304798390:web:fb41a097c9504d06ac0817",
+    measurementId: "G-K65YB7SLWP"
+
   };
-
-  const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
 
 
 
